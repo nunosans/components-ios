@@ -7,7 +7,6 @@
 
 import SwiftUI
 
-
 /// `View` is a SwiftUI protocol that holds most UI. Requires a `body`.
 /// Saying: `Views` are a function of their state. This means that they exist to describe the state of our program.
 struct ContentView: View {
