@@ -40,7 +40,6 @@ struct Forms: View {
                 Text("For Each")
             }
         }
-        
         // Navigation stack view title.
         .navigationTitle("Forms")
         .navigationBarTitleDisplayMode(.inline)

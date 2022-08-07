@@ -83,7 +83,6 @@ struct Buttons: View {
 
             
         }
-        
         // Navigation stack view title.
         .navigationTitle("Buttons")
         .navigationBarTitleDisplayMode(.inline)

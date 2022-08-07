@@ -27,7 +27,6 @@ struct Stacks: View {
                 Image(systemName: "circle")
             }
         }
-        
         // Navigation stack view title.
         .navigationTitle("Stacks")
         .navigationBarTitleDisplayMode(.inline)

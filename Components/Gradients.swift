@@ -28,8 +28,7 @@ struct Gradients: View {
             AngularGradient(gradient: Gradient(colors: [.red, .yellow, .green, .blue, .purple, .red]), center: .center)
             
         }
-        
-        /// The title belongs to the child of the navigation view, not the `NavigationView` itself.
+        // Navigation stack view title.
         .navigationTitle("Gradients")
         .navigationBarTitleDisplayMode(.inline)
         

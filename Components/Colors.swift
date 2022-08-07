@@ -49,8 +49,7 @@ struct Colors: View {
             }
             
         }
-        
-        /// The title belongs to the child of the navigation view, not the `NavigationView` itself.
+        // Navigation stack view title.
         .navigationTitle("Colors")
         .navigationBarTitleDisplayMode(.inline)
         

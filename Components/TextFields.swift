@@ -37,7 +37,6 @@ struct TextFields: View {
                 Text("Text Field")
             }
         }
-        
         // Navigation stack view title.
         .navigationTitle("Text Fields")
         .navigationBarTitleDisplayMode(.inline)

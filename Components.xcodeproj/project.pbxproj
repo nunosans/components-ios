@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B8267D4B28A0629D0038ABEC /* Animations.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8267D4A28A0629D0038ABEC /* Animations.swift */; };
 		B85265192891679200CC503A /* ComponentsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B85265182891679200CC503A /* ComponentsApp.swift */; };
 		B852651B2891679200CC503A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B852651A2891679200CC503A /* ContentView.swift */; };
 		B852651D2891679300CC503A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B852651C2891679300CC503A /* Assets.xcassets */; };
@@ -24,6 +25,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B8267D4A28A0629D0038ABEC /* Animations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animations.swift; sourceTree = "<group>"; };
 		B85265152891679200CC503A /* Components.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Components.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B85265182891679200CC503A /* ComponentsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComponentsApp.swift; sourceTree = "<group>"; };
 		B852651A2891679200CC503A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -73,16 +75,17 @@
 			children = (
 				B85265182891679200CC503A /* ComponentsApp.swift */,
 				B852651A2891679200CC503A /* ContentView.swift */,
+				B85265302891685900CC503A /* Alerts.swift */,
+				B8267D4A28A0629D0038ABEC /* Animations.swift */,
+				B852652E2891684600CC503A /* Buttons.swift */,
 				B85265262891680800CC503A /* Colors.swift */,
+				B852652C2891683A00CC503A /* Forms.swift */,
 				B85265282891681B00CC503A /* Gradients.swift */,
 				B852652A2891682E00CC503A /* Materials.swift */,
-				B852652C2891683A00CC503A /* Forms.swift */,
-				B852652E2891684600CC503A /* Buttons.swift */,
-				B85265302891685900CC503A /* Alerts.swift */,
-				B85265322891686900CC503A /* Steppers.swift */,
 				B85265342891687500CC503A /* Pickers.swift */,
-				B85265362891688300CC503A /* TextFields.swift */,
 				B85265382891688F00CC503A /* Stacks.swift */,
+				B85265322891686900CC503A /* Steppers.swift */,
+				B85265362891688300CC503A /* TextFields.swift */,
 				B852651C2891679300CC503A /* Assets.xcassets */,
 				B852651E2891679300CC503A /* Preview Content */,
 			);
@@ -174,6 +177,7 @@
 				B85265312891685900CC503A /* Alerts.swift in Sources */,
 				B852652B2891682E00CC503A /* Materials.swift in Sources */,
 				B85265372891688300CC503A /* TextFields.swift in Sources */,
+				B8267D4B28A0629D0038ABEC /* Animations.swift in Sources */,
 				B85265352891687500CC503A /* Pickers.swift in Sources */,
 				B85265272891680800CC503A /* Colors.swift in Sources */,
 				B852652D2891683A00CC503A /* Forms.swift in Sources */,
@@ -304,6 +308,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Components/Preview Content\"";
@@ -322,6 +327,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.nunocoelhosantos.Components;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -333,6 +339,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Components/Preview Content\"";
@@ -351,6 +358,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.nunocoelhosantos.Components;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

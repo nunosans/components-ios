@@ -102,8 +102,7 @@ struct Materials: View {
                     .cornerRadius(25)
             }
         }
-        
-        /// The title belongs to the child of the navigation view, not the `NavigationView` itself.
+        // Navigation stack view title.
         .navigationTitle("Materials")
         .navigationBarTitleDisplayMode(.inline)
         
