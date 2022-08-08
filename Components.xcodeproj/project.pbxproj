@@ -22,6 +22,7 @@
 		B85265352891687500CC503A /* Pickers.swift in Sources */ = {isa = PBXBuildFile; fileRef = B85265342891687500CC503A /* Pickers.swift */; };
 		B85265372891688300CC503A /* TextFields.swift in Sources */ = {isa = PBXBuildFile; fileRef = B85265362891688300CC503A /* TextFields.swift */; };
 		B85265392891688F00CC503A /* Stacks.swift in Sources */ = {isa = PBXBuildFile; fileRef = B85265382891688F00CC503A /* Stacks.swift */; };
+		B8C4FE1D28A0FF67000DACC6 /* Gestures.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8C4FE1C28A0FF67000DACC6 /* Gestures.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +42,7 @@
 		B85265342891687500CC503A /* Pickers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pickers.swift; sourceTree = "<group>"; };
 		B85265362891688300CC503A /* TextFields.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFields.swift; sourceTree = "<group>"; };
 		B85265382891688F00CC503A /* Stacks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stacks.swift; sourceTree = "<group>"; };
+		B8C4FE1C28A0FF67000DACC6 /* Gestures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gestures.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				B852652E2891684600CC503A /* Buttons.swift */,
 				B85265262891680800CC503A /* Colors.swift */,
 				B852652C2891683A00CC503A /* Forms.swift */,
+				B8C4FE1C28A0FF67000DACC6 /* Gestures.swift */,
 				B85265282891681B00CC503A /* Gradients.swift */,
 				B852652A2891682E00CC503A /* Materials.swift */,
 				B85265342891687500CC503A /* Pickers.swift */,
@@ -175,6 +178,7 @@
 				B852652F2891684600CC503A /* Buttons.swift in Sources */,
 				B852651B2891679200CC503A /* ContentView.swift in Sources */,
 				B85265312891685900CC503A /* Alerts.swift in Sources */,
+				B8C4FE1D28A0FF67000DACC6 /* Gestures.swift in Sources */,
 				B852652B2891682E00CC503A /* Materials.swift in Sources */,
 				B85265372891688300CC503A /* TextFields.swift in Sources */,
 				B8267D4B28A0629D0038ABEC /* Animations.swift in Sources */,

@@ -23,13 +23,16 @@ struct ContentView: View {
                     NavigationLink("Buttons", destination: Buttons())
                     NavigationLink("Colors", destination: Colors())
                     NavigationLink("Forms", destination: Forms())
+                    NavigationLink("Gestures", destination: Gestures())
                     NavigationLink("Gradients", destination: Gradients())
                     NavigationLink("Materials", destination: Materials())
                     NavigationLink("Pickers", destination: Pickers())
                     NavigationLink("Stacks", destination: Stacks())
-                    NavigationLink("Steppers", destination: Steppers())
                 }
-                NavigationLink("Text Fields", destination: TextFields())
+                Group {
+                    NavigationLink("Steppers", destination: Steppers())
+                    NavigationLink("Text Fields", destination: TextFields())
+                }
             }
             /// The title belongs to the child of the navigation view, not the `NavigationView` itself.
             .navigationTitle("Components")
