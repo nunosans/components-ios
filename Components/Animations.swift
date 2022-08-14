@@ -14,6 +14,7 @@ struct Animations: View {
     @State private var buttonOpacity = 5.0
     @State private var buttonFlipDegrees = 0.0
     @State private var buttonEnabled = true
+    @State private var showingCircle = false
     
     var body: some View {
         
@@ -138,6 +139,27 @@ struct Animations: View {
                 Text("Animation stack")
             } footer: {
                 Text("Here we add two different animation modifiers to our modifier stack. Each animation is unique and only animates the modifiers before it, up to the previous animation.")
+            }
+            
+            Section {
+                Button("Tap me") {
+                    withAnimation {
+                        showingCircle.toggle()
+                    }
+                }
+                VStack {
+                    if showingCircle {
+                        Circle()
+                            .fill(.red)
+                            .frame(width: 120, height: 120)
+                            .transition(.asymmetric(insertion: .scale, removal: .opacity))
+                    }
+                }
+                .frame(maxWidth: .infinity, minHeight: 200)
+            } header: {
+                Text("Asymetric transition")
+            } footer: {
+                Text("Here we animate a view appearing and disappearing, with an asymetric transition. It scales when appearing and fades out when disappearing.")
             }
             
         }

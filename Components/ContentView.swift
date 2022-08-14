@@ -22,7 +22,7 @@ struct ContentView: View {
                     NavigationLink("Animations", destination: Animations())
                     NavigationLink("Buttons", destination: Buttons())
                     NavigationLink("Colors", destination: Colors())
-                    NavigationLink("Forms", destination: Forms())
+                    // NavigationLink("Forms", destination: Forms())
                     NavigationLink("Gestures", destination: Gestures())
                     NavigationLink("Gradients", destination: Gradients())
                     NavigationLink("Materials", destination: Materials())
